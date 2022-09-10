@@ -92,7 +92,7 @@ jobs:
         with:
           path: ${{ env.GOPATH }}/src/github.com/tensorchord/envd
       - name: Setup Go
-        uses: actions/setup-go@v2
+        uses: actions/setup-go@v3
         with:
           go-version: 1.18
       - name: Cache Go modules
@@ -138,7 +138,7 @@ jobs:
         with:
           path: ${{ env.GOPATH }}/src/github.com/tensorchord/envd
       - name: Setup Go
-        uses: actions/setup-go@v2
+        uses: actions/setup-go@v3
         with:
           go-version: 1.18
       - name: Cache Go modules
